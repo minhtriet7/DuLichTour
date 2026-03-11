@@ -1,0 +1,19 @@
+# Bỏ qua các thư mục chứa hình ảnh tĩnh và thumbnail (rất nặng)
+images/
+_thumbs/
+
+# Bỏ qua các thư viện soạn thảo văn bản và quản lý file bên thứ 3
+ckeditor/
+ckfinder/
+
+# Bỏ qua thư mục font chữ (nếu nặng)
+fonts/
+
+# Bỏ qua thư mục rác/tạm thời (mình thấy bạn có 1 folder tên này)
+New folder/
+
+# --- BẢO MẬT (Rất quan trọng) ---
+# Nếu trong thư mục "includes" hoặc "admin" của bạn có file chứa mật khẩu 
+# kết nối Database (ví dụ: db.php, connect.php, config.php), hãy bỏ ghi chú 
+# dòng bên dưới và sửa lại tên file cho đúng để không bị lộ mật khẩu lên mạng nhé:
+# includes/config.php
